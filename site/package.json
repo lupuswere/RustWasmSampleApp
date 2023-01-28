@@ -3,7 +3,7 @@
     "serve": "webpack-dev-server"
   },
   "dependencies": {
-    "@lilifei0409/hello-wasm": "^0.1.0"
+    "@lilifei0409/hello-wasm": "^0.1.1"
   },
   "devDependencies": {
     "webpack": "^4.25.1",
