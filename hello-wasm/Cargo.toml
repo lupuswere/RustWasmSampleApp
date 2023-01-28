@@ -1,0 +1,17 @@
+[package]
+name = "hello-wasm"
+version = "0.1.0"
+edition = "2021"
+authors = ["Lifei Li lilifei0409@gmail.com"]
+description = "Sample project with WASM/Rust integration"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# A dynamic system library will be produced.
+# This is used when compiling a dynamic library to be loaded from another language.
+# This output type will create *.so files on Linux, *.dylib files on macOS, and *.dll files on Windows.
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.83"
